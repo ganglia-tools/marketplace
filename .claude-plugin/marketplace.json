@@ -1,0 +1,23 @@
+{
+  "name": "ganglia",
+  "owner": {
+    "name": "Moado",
+    "url": "https://ganglia.dev"
+  },
+  "plugins": [
+    {
+      "name": "ganglia",
+      "source": ".",
+      "description": "Code-graph MCP server — 70 semantic tools that replace Read/Grep/Glob and slash token usage. Includes transactional batch edits, one-click revert, full-coverage propagate, and cross-session memory.",
+      "version": "0.9.1",
+      "homepage": "https://ganglia.dev",
+      "license": "UNLICENSED",
+      "keywords": [
+        "mcp",
+        "code-graph",
+        "ai",
+        "tree-sitter"
+      ]
+    }
+  ]
+}

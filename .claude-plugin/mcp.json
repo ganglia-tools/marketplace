@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "ganglia": {
+      "command": "npx",
+      "args": ["-y", "-p", "@ganglia/cli", "gng", "mcp", "-p", "."],
+      "env": {}
+    }
+  }
+}

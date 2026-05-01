@@ -1,0 +1,19 @@
+{
+  "name": "ganglia",
+  "description": "Code-graph MCP server — 70 semantic tools (code_get, code_grep, code_callers, code_apply_batch, code_revert, …) that replace Read/Grep/Glob and dramatically reduce token usage on real codebases.",
+  "version": "0.9.1",
+  "author": {
+    "name": "Moado"
+  },
+  "homepage": "https://ganglia.dev",
+  "repository": "https://github.com/ganglia-tools/marketplace",
+  "license": "UNLICENSED",
+  "keywords": [
+    "mcp",
+    "code-graph",
+    "ai",
+    "tree-sitter",
+    "ganglia"
+  ],
+  "mcpServers": "./.claude-plugin/mcp.json"
+}
