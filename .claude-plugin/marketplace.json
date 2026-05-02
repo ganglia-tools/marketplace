@@ -8,8 +8,8 @@
     {
       "name": "ganglia",
       "source": ".",
-      "description": "Code-graph MCP server — 70 semantic tools that replace Read/Grep/Glob and slash token usage. Includes transactional batch edits, one-click revert, full-coverage propagate, and cross-session memory.",
-      "version": "0.9.1",
+      "description": "Code-graph MCP server — 73 semantic tools that replace Read/Grep/Glob and slash token usage. Includes transactional batch edits, one-click revert, full-coverage propagate, and cross-session memory.",
+      "version": "0.9.2",
       "homepage": "https://ganglia.dev",
       "license": "UNLICENSED",
       "keywords": [
