@@ -1,7 +1,7 @@
 {
   "name": "ganglia",
   "description": "Code-graph MCP server — 73 semantic tools (code_get, code_grep, code_callers, code_apply_batch, code_revert, …) that replace Read/Grep/Glob and dramatically reduce token usage on real codebases.",
-  "version": "0.9.2",
+  "version": "0.9.3",
   "author": {
     "name": "Moado"
   },
