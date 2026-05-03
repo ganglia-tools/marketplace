@@ -1,0 +1,19 @@
+startCommand:
+  type: stdio
+  configSchema:
+    type: object
+    properties:
+      projectPath:
+        type: string
+        description: "Absolute path to the project root to index. Defaults to '.' (current directory)."
+        default: "."
+      memosKey:
+        type: string
+        description: "Optional Ganglia cloud activation key for cross-machine memory and Pro features. Get one free at https://ganglia.dev/signup."
+    required: []
+  commandFunction: |-
+    (config) => ({
+      command: "npx",
+      args: ["-y", "-p", "@ganglia/cli", "gng", "mcp", "-p", config.projectPath || "."],
+      env: config.memosKey ? { GL_MEMOS_KEY: config.memosKey, GL_SMART_READ: "true" } : {}
+    })
