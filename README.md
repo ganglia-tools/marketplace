@@ -1,12 +1,12 @@
-# Ganglia — code-graph MCP server (73 tools)
+# Ganglia — code-graph MCP server
 
 [![npm](https://img.shields.io/npm/v/@ganglia/cli)](https://www.npmjs.com/package/@ganglia/cli)
 [![Site](https://img.shields.io/badge/site-ganglia.dev-blue)](https://ganglia.dev)
-[![Docs](https://img.shields.io/badge/docs-73%20tools-green)](https://ganglia.dev/docs)
+[![Docs](https://img.shields.io/badge/docs-ganglia.dev-green)](https://ganglia.dev/docs)
 
 Ganglia is an [MCP](https://modelcontextprotocol.io) server that gives AI coding agents a real understanding of your codebase — not file contents, but **structure**: who calls what, what breaks if you touch X, where a route ends up in the database.
 
-It indexes your project into a call graph and exposes **73 semantic tools** that replace `Read` / `Grep` / `Glob` and slash token usage on real codebases. Works with Claude Code, Cursor, Windsurf, Continue, Cline, Goose — any MCP-compatible client.
+It indexes your project into a call graph and exposes semantic tools that replace `Read` / `Grep` / `Glob` and slash token usage on real codebases. Works with Claude Code, Cursor, Windsurf, Continue, Cline, Goose — any MCP-compatible client.
 
 ## What you get
 
